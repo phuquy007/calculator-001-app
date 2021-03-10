@@ -18,8 +18,6 @@ function CalculatorFormPtr18(props){
             </div>
             <button onClick={props.action}>Go!</button>
         </div>
-
-        
     )
 }
 
