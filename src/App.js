@@ -15,7 +15,7 @@ function App() {
   function doOperation(){
     switch(equation.operation){
       case "add": 
-        //Do Add
+        //Do Add 
         console.log("Result: " + (parseFloat(equation.operand1) + parseFloat(equation.operand2)));
         break;
       default:
