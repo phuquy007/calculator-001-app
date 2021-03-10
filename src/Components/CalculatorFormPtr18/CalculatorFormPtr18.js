@@ -10,6 +10,7 @@ function CalculatorFormPtr18(props){
             <div className="col-4">
                 <select className="form-select" id="operation" onChange={props.update}>
                     <option selected>Please select an operation</option>
+                    <option value="add">Addition</option>
                 </select>
             </div>
             <div className="col-4">
